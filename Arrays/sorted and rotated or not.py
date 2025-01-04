@@ -1,6 +1,6 @@
 #sorted and rotated or not
 class Solution:
-    def check(self, nums: List[int]) -> bool:
+    def check(self, nums):
         if len(nums)==1:
             return True
         count=0
